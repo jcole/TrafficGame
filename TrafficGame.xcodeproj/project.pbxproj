@@ -14,6 +14,7 @@
 		1FBD5F631C9855290091015E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBD5F611C9855290091015E /* Main.storyboard */; };
 		1FBD5F651C9855290091015E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBD5F641C9855290091015E /* Assets.xcassets */; };
 		1FBD5F681C9855290091015E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBD5F661C9855290091015E /* LaunchScreen.storyboard */; };
+		1FBD5F701C9857240091015E /* Tiles.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1FBD5F6F1C9857240091015E /* Tiles.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1FBD5F641C9855290091015E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FBD5F671C9855290091015E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FBD5F691C9855290091015E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBD5F6F1C9857240091015E /* Tiles.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Tiles.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +64,9 @@
 				1FBD5F5B1C9855290091015E /* GameScene.sks */,
 				1FBD5F5D1C9855290091015E /* GameScene.swift */,
 				1FBD5F5F1C9855290091015E /* GameViewController.swift */,
-				1FBD5F611C9855290091015E /* Main.storyboard */,
 				1FBD5F641C9855290091015E /* Assets.xcassets */,
+				1FBD5F6F1C9857240091015E /* Tiles.atlas */,
+				1FBD5F611C9855290091015E /* Main.storyboard */,
 				1FBD5F661C9855290091015E /* LaunchScreen.storyboard */,
 				1FBD5F691C9855290091015E /* Info.plist */,
 			);
@@ -130,6 +133,7 @@
 			files = (
 				1FBD5F5C1C9855290091015E /* GameScene.sks in Resources */,
 				1FBD5F681C9855290091015E /* LaunchScreen.storyboard in Resources */,
+				1FBD5F701C9857240091015E /* Tiles.atlas in Resources */,
 				1FBD5F651C9855290091015E /* Assets.xcassets in Resources */,
 				1FBD5F631C9855290091015E /* Main.storyboard in Resources */,
 			);
