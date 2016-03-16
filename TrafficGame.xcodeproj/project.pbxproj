@@ -18,6 +18,7 @@
 		1FEE77111C99ABC00057965B /* CarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE77101C99ABC00057965B /* CarEntity.swift */; };
 		1FEE77151C99AD520057965B /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE77131C99AD520057965B /* CGPointExtension.swift */; };
 		1FEE77161C99AD520057965B /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE77141C99AD520057965B /* SCNVector3Extensions.swift */; };
+		1FEE77191C99B4D50057965B /* RoadMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE77181C99B4D50057965B /* RoadMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		1FEE77101C99ABC00057965B /* CarEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarEntity.swift; sourceTree = "<group>"; };
 		1FEE77131C99AD520057965B /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
 		1FEE77141C99AD520057965B /* SCNVector3Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVector3Extensions.swift; sourceTree = "<group>"; };
+		1FEE77181C99B4D50057965B /* RoadMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoadMap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 			children = (
 				1FBD5F591C9855290091015E /* AppDelegate.swift */,
 				1FEE77101C99ABC00057965B /* CarEntity.swift */,
+				1FEE77181C99B4D50057965B /* RoadMap.swift */,
 				1FBD5F5B1C9855290091015E /* GameScene.sks */,
 				1FBD5F5D1C9855290091015E /* GameScene.swift */,
 				1FBD5F5F1C9855290091015E /* GameViewController.swift */,
@@ -176,6 +179,7 @@
 				1FEE77151C99AD520057965B /* CGPointExtension.swift in Sources */,
 				1FEE77161C99AD520057965B /* SCNVector3Extensions.swift in Sources */,
 				1FBD5F601C9855290091015E /* GameViewController.swift in Sources */,
+				1FEE77191C99B4D50057965B /* RoadMap.swift in Sources */,
 				1FBD5F5A1C9855290091015E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
