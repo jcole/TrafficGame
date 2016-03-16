@@ -15,6 +15,9 @@
 		1FBD5F651C9855290091015E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBD5F641C9855290091015E /* Assets.xcassets */; };
 		1FBD5F681C9855290091015E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBD5F661C9855290091015E /* LaunchScreen.storyboard */; };
 		1FBD5F701C9857240091015E /* Tiles.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1FBD5F6F1C9857240091015E /* Tiles.atlas */; };
+		1FEE77111C99ABC00057965B /* CarEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE77101C99ABC00057965B /* CarEntity.swift */; };
+		1FEE77151C99AD520057965B /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE77131C99AD520057965B /* CGPointExtension.swift */; };
+		1FEE77161C99AD520057965B /* SCNVector3Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEE77141C99AD520057965B /* SCNVector3Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		1FBD5F671C9855290091015E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FBD5F691C9855290091015E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FBD5F6F1C9857240091015E /* Tiles.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Tiles.atlas; sourceTree = "<group>"; };
+		1FEE77101C99ABC00057965B /* CarEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarEntity.swift; sourceTree = "<group>"; };
+		1FEE77131C99AD520057965B /* CGPointExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
+		1FEE77141C99AD520057965B /* SCNVector3Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCNVector3Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +67,35 @@
 			isa = PBXGroup;
 			children = (
 				1FBD5F591C9855290091015E /* AppDelegate.swift */,
+				1FEE77101C99ABC00057965B /* CarEntity.swift */,
 				1FBD5F5B1C9855290091015E /* GameScene.sks */,
 				1FBD5F5D1C9855290091015E /* GameScene.swift */,
 				1FBD5F5F1C9855290091015E /* GameViewController.swift */,
 				1FBD5F641C9855290091015E /* Assets.xcassets */,
 				1FBD5F6F1C9857240091015E /* Tiles.atlas */,
-				1FBD5F611C9855290091015E /* Main.storyboard */,
-				1FBD5F661C9855290091015E /* LaunchScreen.storyboard */,
+				1FEE77121C99AD430057965B /* Util */,
+				1FEE77171C99AD740057965B /* Storyboards */,
 				1FBD5F691C9855290091015E /* Info.plist */,
 			);
 			path = TrafficGame;
+			sourceTree = "<group>";
+		};
+		1FEE77121C99AD430057965B /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				1FEE77131C99AD520057965B /* CGPointExtension.swift */,
+				1FEE77141C99AD520057965B /* SCNVector3Extensions.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		1FEE77171C99AD740057965B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1FBD5F611C9855290091015E /* Main.storyboard */,
+				1FBD5F661C9855290091015E /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +172,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FBD5F5E1C9855290091015E /* GameScene.swift in Sources */,
+				1FEE77111C99ABC00057965B /* CarEntity.swift in Sources */,
+				1FEE77151C99AD520057965B /* CGPointExtension.swift in Sources */,
+				1FEE77161C99AD520057965B /* SCNVector3Extensions.swift in Sources */,
 				1FBD5F601C9855290091015E /* GameViewController.swift in Sources */,
 				1FBD5F5A1C9855290091015E /* AppDelegate.swift in Sources */,
 			);
@@ -298,6 +326,7 @@
 				1FBD5F6E1C9855290091015E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
